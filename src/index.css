@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@700&display=swap");
+
+body {
+  background-color: #293948;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50vh;
+}
+
+.--card {
+  display: flex;
+  background-color: #193440;
+  width: 50rem;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px 5px 5px black;
+}
+
+.header--picture {
+  width: 230px;
+}
+
+.--header > h1 {
+  font-family: "Genos", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  color: white;
+  margin: 0;
+}
