@@ -144,6 +144,7 @@ body {
 
   #root {
     padding-top: 0;
+    padding-bottom: 0;
   }
   .--main {
     padding-left: 10%;
