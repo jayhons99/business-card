@@ -15,7 +15,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-bottom: 50vh;
-  padding-top: 25vh;
+  padding-top: 15vh;
 }
 
 .--card {
@@ -117,6 +117,24 @@ body {
 .--main-text {
   color: #fffffa;
   font-family: "Roboto Mono", monospace;
+}
+
+.--footer {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 16px;
+  background-color: #141c29;
+  width: 100%;
+}
+
+.--footer-icon {
+  margin: 16px 0px;
+  color: #51848c;
+}
+
+.--footer-icon:hover {
+  color: #fffffa;
 }
 
 @media only screen and (max-width: 768px) {
