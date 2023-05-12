@@ -48,10 +48,34 @@ body {
 }
 .--header-tag {
   font-family: "Khand", sans-serif;
-  font-size: 20px;
-  letter-spacing: 0.25rem;
-  margin: 0;
+  font-size: 23px;
+  letter-spacing: 0.35rem;
+  max-width: 53%;
+  margin: 0 auto;
   color: #fffffa;
+  overflow: hidden;
+  border-right: 0.01rem solid #fffffa;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fffffa;
+  }
 }
 
 .--header-buttton-container {
