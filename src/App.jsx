@@ -5,11 +5,12 @@ const prodUrl = "https://tiijwog187.execute-api.us-east-1.amazonaws.com/Prod/";
 
 function App() {
   const [count, setCount] = useState(0);
+
   useEffect(() => {
-    fetch(prodUrl)
+    fetch(prodUrl, { method: "POST" })
       .then((res) => res.json())
       .then((data) => {
-        setCount(data.numOfVisits);
+        setCount(data.updatedCount);
       });
   }, []);
   return (
